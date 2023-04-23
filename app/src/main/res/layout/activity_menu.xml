@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MenuActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/menubg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily = "@font/horizonfont"
+            android:textSize = "40sp"
+            android:textColor = "@color/grey"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop = "30dp"
+            android:text="@string/app_name"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/jokeButton"
+                android:layout_width="159dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="@color/green"
+                android:fontFamily="@font/horizonfont"
+                android:text="@string/jokeButton"
+                android:textColor="@color/grey"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/glossaryButton"
+                android:layout_width="159dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="@color/grey"
+                android:fontFamily="@font/horizonfont"
+                android:text="@string/glossaryButton"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:layout_gravity = "start"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily = "@font/horizonfont"
+            android:textSize = "40sp"
+            android:textColor = "@color/grey"
+            android:layout_marginTop = "25dp"
+            android:text="@string/all"
+            android:gravity = "center"
+            android:layout_gravity = "center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/guessTheOutputGame"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:backgroundTint="@color/green"
+                    android:fontFamily="@font/horizonfont"
+                    android:text="@string/guessTheOutputGame"
+                    android:textColor="@color/grey"
+                    android:textSize="24sp"
+                    android:layout_gravity= "center"
+                    android:includeFontPadding="false"
+                    android:padding="10dp"
+                    />
+                <Button
+                    android:id="@+id/guessTheLanguageGame"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:backgroundTint="@color/grey"
+                    android:fontFamily="@font/horizonfont"
+                    android:text="@string/guessTheLanguageGame"
+                    android:textColor="@color/green"
+                    android:textSize="24sp"
+                    android:includeFontPadding="false"
+                    android:padding="10dp"
+                    android:layout_gravity= "center"
+                    />
+                <Button
+                    android:id="@+id/unscrambleGame"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:gravity = "center"
+                    android:backgroundTint="@color/green"
+                    android:fontFamily="@font/horizonfont"
+                    android:text="@string/unscrambleGame"
+                    android:textColor="@color/grey"
+                    android:textSize="24sp"
+                    android:layout_gravity= "center"
+                    android:includeFontPadding="false"
+                    android:padding="10dp"
+                    />
+                <Button
+                    android:id="@+id/matchGame"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
+                    android:gravity = "center"
+                    android:backgroundTint="@color/grey"
+                    android:fontFamily="@font/horizonfont"
+                    android:text="@string/matchGame"
+                    android:textColor="@color/green"
+                    android:textSize="24sp"
+                    android:layout_gravity= "center"
+                    android:includeFontPadding="false"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily = "@font/horizonfont"
+                android:textSize = "40sp"
+                android:textColor = "@color/grey"
+                android:layout_marginTop = "25dp"
+                android:layout_marginBottom = "25dp"
+                android:text="RANDOM"
+                android:gravity = "center"
+                android:layout_gravity = "center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/randomButton"
+                    android:layout_width="159dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="15dp"
+                    android:backgroundTint="@color/green"
+                    android:fontFamily="@font/horizonfont"
+                    android:text="@string/random"
+                    android:textColor="@color/grey"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/randomTerm"
+                    android:layout_width="159dp"
+                    android:layout_height="150dp"
+                    android:backgroundTint="@color/grey"
+                    android:fontFamily="@font/horizonfont"
+                    android:text="RANDOM TERM"
+                    android:textColor="@color/green"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

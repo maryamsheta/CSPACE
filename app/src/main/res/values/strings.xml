@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CSPACE</string>
+    <string name="jokeButton">TODAY\'S JOKE</string>
+    <string name="random">RANDOM GAME</string>
+    <string name="all">GAMES</string>
+    <string name="other">OTHER</string>
+    <string name="guessTheOutputGame">GUESS THE OUTPUT</string>
+    <string name="guessTheLanguageGame">GUESS THE LANGUAGE</string>
+    <string name="unscrambleGame">UNSCRAMBLE\nTHE WORD</string>
+    <string name="matchGame">MATCH</string>
+    <string name="menubg">MenuBg</string>
+    <string name="back">BACK</string>
+    <string name="guessTheOutput">GUESS\nTHE\nOUTPUT</string>
+    <string name="submit">SUBMIT</string>
+    <string name="guessTheLanguage">GUESS\nTHE\nLANGUAGE</string>
+    <string name="playAgain">PLAY AGAIN</string>
+    <string name="backToMenu">Back To Menu</string>
+    <string name="tryAgain">TRY AGAIN</string>
+    <string name="anotherWord">ANOTHER WORD</string>
+    <string name="snippetButton">CODE SNIPPETS</string>
+    <string name="glossaryButton">GLOSSARY</string>
+</resources>

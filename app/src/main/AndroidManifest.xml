@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSPACE"
+        tools:targetApi="31">
+        <activity
+            android:name=".RandomTerm"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GlossaryDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GlossaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MatchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UnscrambleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GuessTheLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GuessTheOutputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.JokeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
